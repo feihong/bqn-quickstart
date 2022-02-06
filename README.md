@@ -10,6 +10,12 @@ Generate 20 random numbers between 0 and 9
 
     {•rand.Range 10⊣𝕩}¨↕20
 
+Generate 8 random hanzi
+
+    RandRange ← {𝕨+•rand.Range 1+𝕩-𝕨}
+    {@+19968 RandRange 40959⊣𝕩}¨↕8
+
+
 ## Modifiers cheatsheet
 
 Constant
