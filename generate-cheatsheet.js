@@ -27,8 +27,16 @@ function* getOutputLines(lines) {
       continue
     }
 
-    const result = JSON.stringify(bqn(line))
-    yield `    ${line} --> ${result}\n`
+    const result = bqn(line)
+    let fmtResult = bqn.fmt(result)
+    // Indent the string if the formatted result contains newlines
+    if (fmtResult.includes('\n')) {
+      const indent = ' '.repeat(line.length + 9)
+      let [first, ...rest] = fmtResult.split(/\n/)
+      rest = rest.map(line => indent + line)
+      fmtResult = [first, ...rest].join('\n')
+    } 
+    yield `    ${line} --> ${fmtResult}\n`
   }
 }
 
