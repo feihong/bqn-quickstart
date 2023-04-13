@@ -2,7 +2,18 @@
 
 ## Installation
 
-Just use the [online REPL](https://mlochbaum.github.io/BQN/try.html) when starting out.
+    curl -fsSL https://bun.sh/install | bash
+    git clone --depth 1 https://github.com/mlochbaum/bqn
+
+## Commands
+
+Run a program from a file
+
+    bun bqn/bqn.js hello.bqn
+
+Generate cheatsheet
+
+    make cheatsheet
 
 ## Basic examples
 
@@ -66,4 +77,5 @@ After/bind
 
 - [BQN documentation](https://mlochbaum.github.io/BQN/doc/index.html)
 - [BQN tutorials](https://mlochbaum.github.io/BQN/tutorial/index.html)
+- [BQN primitives](https://mlochbaum.github.io/BQN/doc/primitive.html)
 - [BQN system-provided values](https://mlochbaum.github.io/BQN/spec/system.html)
