@@ -4,12 +4,21 @@
 
     curl -fsSL https://bun.sh/install | bash
     git clone --depth 1 https://github.com/mlochbaum/bqn
+    git clone --depth 1 https://github.com/dzaima/cbqn
+    cd cbqn
+    make REPLXX=1
+
+Add `alias bqn='~/work/bqn-quickstart/cbqn/BQN'` to your `~/.zshrc`.
 
 ## Commands
 
-Run a program from a file
+Run a program
 
-    bun bqn/bqn.js hello.bqn
+    bqn hello.bqn
+
+Run a program using bqn.js
+
+    bun bqn/bqn.js random-hanzi.bqn
 
 Generate cheatsheet
 
