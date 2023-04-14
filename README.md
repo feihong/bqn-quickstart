@@ -2,8 +2,13 @@
 
 ## Installation
 
+Install BQN.js
+
     curl -fsSL https://bun.sh/install | bash
     git clone --depth 1 https://github.com/mlochbaum/bqn
+
+Install CBQN
+
     git clone --depth 1 https://github.com/dzaima/cbqn
     cd cbqn
     make REPLXX=1
