@@ -51,6 +51,23 @@
 5>↕9
 ⟨@,'a','Z'⟩>∞
 
+# Greater Than or Equal to
+
+5≥↕9
+
+# Rank
+
+=44
+=↕4
+=⟨⟩
+=2‿2⥊↕4
+=2‿3‿4⥊↕24
+=⟨1‿2,3‿4‿5⟩
+
+# Equals
+
+'e'="Mesmerize"
+
 # Reshape
 
 2‿3‿4⥊↕24
