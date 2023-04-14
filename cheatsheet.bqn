@@ -1,4 +1,4 @@
-# Functions
+## Functions
 
 # Conjugate
 
@@ -49,13 +49,23 @@
 # Greater Than
 
 5>↕9
+⟨@,'a','Z'⟩>∞
 
 # Reshape
 
 2‿3‿4⥊↕24
 
-# Modifiers
+## Modifiers
 
 # Fold
 
-+´⟨1,2,3,4⟩
+⋈´"abcde"
+-´⟨1,2,3,4⟩
++´⟨⟩
+⌊´⟨⟩
+100-´⟨1,2,3,4⟩
+
+# Scan
+
+-`⟨1,2,3,4⟩
+100-`⟨1,2,3,4⟩

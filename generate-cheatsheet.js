@@ -17,8 +17,8 @@ function* getLines() {
 
 function* getOutputLines(lines) {
   for (const line of lines) {
-    if (line === '# Functions' || line === '# Modifiers') {
-      yield `\n\n## ${line.substr(2)}`
+    if (line.startsWith('## ')) {
+      yield `\n\n## ${line.substr(3)}`
       continue
     }
     
