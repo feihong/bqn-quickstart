@@ -1,0 +1,45 @@
+glyph; monadic; dyadic; input
++; Conjugate; Add;
+-; Negate; Subtract;
+×; Sign; Multiply; =
+÷; Reciprocal; Divide; -
+⋆; Exponential; Power; +
+√; Square Root; Root; _
+⌊; Floor; Minimum; b
+⌈; Ceiling; Maximum; B
+∧; Sort Up; And; t
+∨; Sort Down; Or; v
+¬; Not; Span; ~
+|; Absolute Value; Modulus;
+≤; N/A; Less Than or Equal to; <
+<; Enclose; Less Than;
+>; Merge; Greater Than;
+≥; N/A; Greater Than or Equal to; >
+=; Rank; Equals;
+≠; Length; Not Equals; /
+≡; Depth; Match; m
+≢; Shape; Not Match; M
+⊣; Identity; Left; {
+⊢; Identity; Right; }
+⥊; Deshape; Reshape; z
+∾; Join; Join to; ,
+≍; Solo; Couple; .
+⋈; Enlist; Pair; Z
+↑; Prefixes; Take; r
+↓; Suffixes; Drop; c
+↕; Range; Windows; d
+»; Nudge; Shift Before; L
+«; Nudge Back; Shift After; H
+⌽; Reverse; Rotate; q
+⍉; Transpose; Reorder Axes; a
+/; Indices; Replicate;
+⍋; Grade Up; Bins Up; T
+⍒; Grade Down; Bins Down; V
+⊏; First Cell; Select; i
+⊑; First; Pick; I
+⊐; Classify; Index of; o
+⊒; Occurrence Count; Progressive Index of; O
+∊; Mark Firsts; Member of; e
+⍷; Deduplicate; Find; E
+⊔; Group Indices; Group; u
+!; Assert; Assert with Message;
