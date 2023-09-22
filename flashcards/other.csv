@@ -1,0 +1,36 @@
+glyth; name; input
+←; Define; [
+⇐; Export; ?
+↩; Change; '
+⋄; Separator; ";"
+,; Separator;
+.; Namespace field;
+(; Begin expression;
+); End expression;
+{; Begin block;
+}; End block;
+";"; Next body;
+:; Header;
+?; Predicate;
+⟨; Begin list; (
+⟩; End list; )
+[; Begin array;
+]; End array;
+‿; Strand; (space)
+·; Nothing; :
+•; System; 0
+𝕨; Left argument; w
+𝕎; Left argument (as function); W
+𝕩; Right argument; x
+𝕏; Right argument (as function); X
+𝕗; Modifier left operand (as subject); f
+𝔽; Modifier left operand; F
+𝕘; 2-modifier right operand (as subject); g
+𝔾; 2-modifier right operand; G
+𝕤; Current function (as subject); s
+𝕊; Current function; S
+𝕣; Current modifier; R
+¯; Minus; 9
+π; Pi; p
+∞; Infinity; 8
+@; Null character;
